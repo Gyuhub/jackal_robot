@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+	<include file="$(find jackal_base)/launch/include/d435.launch" />
+	<include file="$(find jackal_base)/launch/include/sick_tim_5xx.launch" />
+	<include file="$(find velodyne_pointcloud)/launch/VLP16_points.launch" />
+</launch>
